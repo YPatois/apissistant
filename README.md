@@ -24,5 +24,6 @@ cmake --install build
 pip install huggingface_hub hf_transfer
 pip install huggingface_hub[hf_xet]
 
+ulimit -n 2048
 ./apissistant/localdeepseekdl.py
 
